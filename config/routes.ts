@@ -160,6 +160,13 @@ export default [
     ],
   },
   {
+    name: 'test',
+    icon: 'smile',
+    path: '/test',
+    component: './test',
+    routes: [],
+  },
+  {
     path: '/profile',
     name: 'profile',
     icon: 'profile',

@@ -49,6 +49,16 @@ declare namespace API {
     progress?: number;
   };
 
+  type MovieItem = {
+    _id: string,
+    cast: string[];
+    plot: string;
+    poster: string;
+    runtime: number;
+    title: string;
+    year: number;
+  };
+
   type RuleList = {
     data?: RuleListItem[];
     /** 列表的内容总数 */
